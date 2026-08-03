@@ -57,6 +57,23 @@ wanting to help.
 4. **Submit a PR** — fork, branch, test, open a pull request against the
    relevant repo, following that repo's own `CONTRIBUTING.md`
 
+## Sign off your commits (DCO)
+
+Every commit must include a `Signed-off-by` trailer, certifying the
+[Developer Certificate of Origin](https://developercertificate.org/) — that
+you wrote the contribution (or have the right to submit it) under the
+project's license. Add it automatically with:
+
+```bash
+git commit -s -m "Your commit message"
+```
+
+A [DCO check](https://github.com/cncf/dco2) runs on every pull request and
+must pass before merging. If you forget:
+
+- **Single commit:** `git rebase HEAD~1 --signoff && git push --force-with-lease`
+- **Multiple commits:** squash them, then sign off the result before pushing
+
 ## What to contribute
 
 - **Bug fixes and features** on [kaappi/kaappi](https://github.com/kaappi/kaappi)
