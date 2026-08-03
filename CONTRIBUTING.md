@@ -37,6 +37,11 @@ the [kaappi GitHub org](https://github.com/kaappi)
 [infra/docs/repo-conventions.md](https://github.com/kaappi/infra/blob/main/docs/repo-conventions.md)).
 This keeps the project focused and the signal clear as it grows.
 
+**Exception: this repo.** Issues and pull requests on kaappi/community itself
+are open to everyone — no org membership required. If you want to question a
+governance decision, propose a Code of Conduct change, or report a security
+process gap, you shouldn't need an invite first.
+
 **Want to contribute code or file issues directly?** Ask for an org invite in
 [Discussions](https://github.com/orgs/kaappi/discussions) — we're happy to
 add anyone who's genuinely interested. There is no bar beyond showing up and
