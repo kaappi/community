@@ -11,6 +11,13 @@ For the generic "how do I get involved" mechanics (Discussions, org access,
 the contributor path), this repo is the source of truth; those other docs
 link back here rather than repeating it.
 
+Unlike every other repo in the org, **issues and pull requests here are open
+to everyone** — no org membership required. Most kaappi repos restrict
+creation to collaborators (see
+[infra/docs/repo-conventions.md](https://github.com/kaappi/infra/blob/main/docs/repo-conventions.md));
+this repo is the intentional exception, since governance, Code of Conduct,
+and security-policy questions shouldn't require an invite first.
+
 ## What's here
 
 | File | Purpose |
