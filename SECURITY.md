@@ -18,8 +18,9 @@ Use GitHub's private security advisory feature on the affected repo (Security
 tab → "Report a vulnerability") to report vulnerabilities. You will receive an
 acknowledgment within 72 hours and a substantive response within 14 days.
 
-If you cannot use GitHub advisories, email a maintainer directly — see
-[MAINTAINERS.md](MAINTAINERS.md).
+If you cannot use GitHub advisories, contact a maintainer listed in
+[MAINTAINERS.md](MAINTAINERS.md) through their GitHub profile and ask for a
+private channel; do not put the details in a public issue or Discussion.
 
 ## Scope
 

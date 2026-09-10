@@ -7,22 +7,23 @@ maintainers, code of conduct, and security reporting.
 Individual repos still own their own repo-specific `CONTRIBUTING.md` (build,
 test, and PR workflow for that codebase) — e.g.
 [kaappi/kaappi](https://github.com/kaappi/kaappi/blob/main/CONTRIBUTING.md).
-For the generic "how do I get involved" mechanics (Discussions, org access,
-the contributor path), this repo is the source of truth; those other docs
+For the generic "how do I get involved" mechanics (Discussions, the review
+rules, the contributor path), this repo is the source of truth; those other docs
 link back here rather than repeating it.
 
-Unlike every other repo in the org, **issues and pull requests here are open
-to everyone** — no org membership required. Most kaappi repos restrict
-creation to collaborators (see
-[infra/docs/repo-conventions.md](https://github.com/kaappi/infra/blob/main/docs/repo-conventions.md));
-this repo is the intentional exception, since governance, Code of Conduct,
-and security-policy questions shouldn't require an invite first.
+Issues and pull requests here, as on every other repo in the org, are open
+to everyone — no org membership required. This repo was the one exception
+while the others were collaborators-only (until 2026-09-10); it remains the
+place for governance, Code of Conduct, and security-policy questions, which
+should never need an invite first. The org-wide policy and its guards are
+described in
+[infra/docs/repo-conventions.md](https://github.com/kaappi/infra/blob/main/docs/repo-conventions.md).
 
 ## What's here
 
 | File | Purpose |
 |------|---------|
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to get involved — Discussions, org access, contributor path |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to get involved — Discussions, review rules, contributor path |
 | [GOVERNANCE.md](GOVERNANCE.md) | Who has decision authority and how that changes over time |
 | [MAINTAINERS.md](MAINTAINERS.md) | Current org-wide maintainers |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Canonical Contributor Covenant text |
