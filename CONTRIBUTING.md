@@ -19,7 +19,6 @@ Use Discussions for:
 - Ideas and feature suggestions
 - Show and tell — share what you've built
 - General discussion about Scheme and language implementation
-- Requesting org membership to contribute directly
 
 There is also a subreddit,
 [r/KaappiScheme](https://www.reddit.com/r/KaappiScheme/), for news, questions,
@@ -31,29 +30,45 @@ Screencasts live on YouTube at
 
 ## Issues and pull requests
 
-Issues and pull requests on Kaappi repositories are restricted to members of
-the [kaappi GitHub org](https://github.com/kaappi)
-(`COLLABORATORS_ONLY` — see
-[infra/docs/repo-conventions.md](https://github.com/kaappi/infra/blob/main/docs/repo-conventions.md)).
-This keeps the project focused and the signal clear as it grows.
+Issues and pull requests on every Kaappi repository are open to everyone.
+No org membership is required: fork, branch, and open the PR (see
+[infra/docs/repo-conventions.md](https://github.com/kaappi/infra/blob/main/docs/repo-conventions.md)
+for the policy and its guards).
 
-**Exception: this repo.** Issues and pull requests on kaappi/community itself
-are open to everyone — no org membership required. If you want to question a
-governance decision, propose a Code of Conduct change, or report a security
-process gap, you shouldn't need an invite first.
+What is *not* open is merging. Every PR needs all CI checks green and an
+approving review from a maintainer before it merges, and CI on a PR from a
+fork waits for a maintainer to approve the workflow run first. That is a
+safeguard on the runners, not a judgement on the PR.
 
-**Want to contribute code or file issues directly?** Ask for an org invite in
-[Discussions](https://github.com/orgs/kaappi/discussions) — we're happy to
-add anyone who's genuinely interested. There is no bar beyond showing up and
-wanting to help.
+Kaappi has one maintainer, and review time is the scarcest resource the
+project has. These rules keep it spent well, and each repo's own
+`CONTRIBUTING.md` may add specifics:
+
+- **Run the tests yourself before opening the PR.** CI is a check, not a
+  substitute. A PR opened red is closed, not debugged.
+- **Be able to explain the change.** "The tool generated it" is not an
+  answer, and a PR whose author cannot walk through it is closed without
+  further review.
+- **Disclose AI assistance** in the PR description. Using an LLM is fine;
+  the sign-off below certifies that *you* stand behind the result and have
+  the right to submit it under MIT.
+- **One change per PR.** A fix and an unrelated refactor are two PRs.
+- **Talk first for anything large.** A new subsystem, a language-surface
+  change, or a change to the build model goes through a
+  [KEP](https://github.com/kaappi/keps) before code.
+
+Bug reports use issue forms that require a version, a platform, and a
+pasted reproduction. If you are not sure something is a bug, a Discussion
+is the right first stop.
 
 ### Typical path for a new contributor
 
 1. **Explore** — install Kaappi, try the [Playground](https://kaappi-lang.org/playground/),
    read the [Guide](https://kaappi-lang.org/guide/)
-2. **Join the conversation** — post in Discussions (bugs, questions, ideas)
-3. **Get org access** — mention that you'd like to contribute and we'll send
-   an invite
+2. **Join the conversation** — post in Discussions (questions, ideas)
+3. **File or pick an issue** — bug reports go straight to the relevant
+   repo's issue tracker; `good first issue` marks the ones meant for
+   newcomers
 4. **Submit a PR** — fork, branch, test, open a pull request against the
    relevant repo, following that repo's own `CONTRIBUTING.md`
 
